@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iPhone Responsive Landing Page</title>
+
+    <!--============ CSS ============-->
+    <link rel="preload" href="./assets/css/style.min.css" as="style" />
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+
+    <!--========== HTML META TAGS ===========-->
+    <meta name="title" content="iPhone Responsive Landing Page" />
+    <meta
+      name="description"
+      content="iPhone Responsive Landing Page by Kennedy B."
+    />
+    <meta name="author" content="Kennedy Barros" />
+
+    <!--========== Open Graph / Facebook ===========-->
+    <meta property="og:url"
+    content=https://iphone-responsive-lading-page.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="iPhone Responsive Landing Page" />
+    <meta
+      property="og:description"
+      content="iPhone Responsive Landing Page by Kennedy B."
+    />
+    <meta property="og:image" content="https://i.ibb.co/XZHFRFH/cover.png" />
+
+    <!--========== Canonical ===========-->
+    <meta property="canonical"
+    content=https://iphone-responsive-lading-page.netlify.app/" />
+    <meta property="keywords" content="responsive, website, iphone" />
+    <meta property="robots" content="responsive, website, iphone" />
+
+    <!--=========== Twitter ===============-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:domain"
+      content="repsonsive-website-playstation.netlify.app"
+    />
+    <meta property="twitter:url"
+    content=https://iphone-responsive-lading-page.netlify.app/" />
+    <meta name="twitter:title" content="iPhone Responsive Landing Page" />
+    <meta
+      name="twitter:description"
+      content="iPhone Responsive Landing Page by Kennedy B."
+    />
+    <meta name="twitter:image" content="https://i.ibb.co/XZHFRFH/cover.png" />
+
+    <!--=========== Favicon ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/svg/favicon_light.svg"
+      type="image/x-icon"
+      id="favicon_tag"
+    />
+
+    <!--============ GOOGLE FONTS ============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--============ HEADER ============-->
+    <header class="header">
+      <nav class="nav grid">
+        <div>
+          <a href="/"
+            ><img
+              src="./assets/svg/logo.svg"
+              alt="Apple"
+              class="nav_logo"
+              width="105"
+              height="29"
+            />
+          </a>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="
+              fill: rgba(255, 255, 255, 1);
+              transform: rotate(180deg);
+              msfilter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+            "
+          >
+            <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+          </svg>
+        </div>
+        <div class="nav_menu" id="nav-menu">
+          <div class="nav_close" id="nav-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="
+                fill: rgba(255, 255, 255, 1);
+                transform: rotate(180deg);
+                msfilter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+              "
+            >
+              <path
+                d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"
+              ></path>
+            </svg>
+          </div>
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="/" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="/" class="nav_link">Store</a>
+            </li>
+            <li class="nav_item">
+              <a href="/" class="nav_link">Support</a>
+            </li>
+            <li class="nav_item">
+              <a href="/" class="nav_link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--============ MAIN ============-->
+    <main class="l-main">
+      <!--============ CONTENT ============-->
+      <section class="home" id="home">
+        <div class="home_container grid">
+          <div class="home_img">
+            <img
+              src="./assets/img/iphone.webp"
+              alt="iPhone 11"
+              data-speed="-2"
+              class="move"
+            />
+          </div>
+
+          <div class="home_data">
+            <p class="home_text">Blast past fast.</p>
+            <h1 class="home_title">
+              iPhone 12 and <br />
+              iPhone 12 mini
+            </h1>
+            <p class="home_description">
+              A superpowerful chip. 5G speed. An advanced dual-camera <br />
+              system. A Ceramic Shield front that's tougher than any <br />
+              smartphone glass. And a bright, beautiful OLED display. <br />
+              iPhone 12 has it all — in two great sizes.
+            </p>
+            <p class="home_description_2">
+              From $24.95/mo. for 24 mo. or $599 before trade-in*
+            </p>
+            <a href="./index.html" class="home_buy">Buy</a>
+            <a href="./index.html" class="home_learn">Learn more</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--============ JS ============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
